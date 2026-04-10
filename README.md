@@ -1,1 +1,81 @@
-# SmartRetention Engine: Telco Churn Predictor
+# 📊 SmartRetention Engine: Telco Churn Predictor
+
+SmartRetention Engine is an end-to-end Machine Learning project designed to predict customer churn for a telecommunications company. By identifying high-risk customers, businesses can implement proactive retention strategies to reduce revenue loss.
+
+## 🚀 Project Overview
+
+This project utilizes the Telco Customer Churn dataset to build a predictive model. The final deployment is a Streamlit web application that allows users to input customer data and receive real-time risk assessments.
+
+Key Features:
+- Data Cleaning & EDA: Handling missing values and visualizing churn drivers (Tenure, Contract type).
+- Imbalanced Data Handling: Applied SMOTE (Synthetic Minority Over-sampling Technique) to balance the churn classes.
+- Model Optimization: Compared Logistic Regression and Random Forest against an Optimized XGBoost model using GridSearchCV.
+- Interactive Dashboard: A user-friendly Streamlit UI for real-time predictions.
+
+## 🏗️ Project Architecture
+
+The project is structured into modular Python scripts for maintainability:
+
+1. data_cleaning_eda.py: Performs data preprocessing and generates statistical visualizations.
+2. featureEngineering.py: Handles Label Encoding, One-Hot Encoding, Feature Scaling, and SMOTE.
+3. modeling.py: Trains multiple classifiers and exports the best-performing model (XGBoost).
+4. streamlit_app.py: The frontend application script.
+
+## 🛠️ Technical Stack
+
+- Language: Python
+- Libraries: Pandas, NumPy, Scikit-Learn, XGBoost, Imbalanced-Learn
+- Visualization: Matplotlib, Seaborn
+- Deployment: Streamlit
+- Model Storage: Joblib
+
+## 📈 Model Performance
+
+To ensure the model effectively captures customers likely to leave, the training focus was placed on Recall.
+
+**Performance Comparison**
+|Model|Accuracy|Recall (Churn)|F1-Score|
+|-----|--------|--------------|--------|
+|Logistic Regression|76.30%|74.60%|0.6256|
+|Random Forest|76.72%|63.64%|0.5920|
+|XGBoost|73.03%|80.21%|0.6122|
+
+**Why XGBoost?**
+
+While Random Forest achieved a slightly higher accuracy, the Optimized XGBoost model was selected as the final engine because it achieved the highest Recall (80.21%). In a churn prevention context, it is more valuable to correctly identify as many potential churners as possible, even if it results in a few more false alarms.
+
+## 🧪 Testing Scenarios
+
+To ensure the model makes logical business decisions, it was tested against four distinct customer personas. The results demonstrate that the model successfully captures key churn drivers like contract type, tenure, and payment methods.
+
+**1. The High-Risk Newcomer**
+
+Profile: New customer, Fiber optic, expensive monthly charges, no contract.
+
+Prediction: **⚠️ CHURN (69.16%)**
+
+Insight: The model correctly identifies that high-cost services combined with a lack of contractual commitment in the first few months represent a major risk.
+
+**2. The Loyal Veteran**
+
+Profile: Long-term customer (70 months), Two-year contract, low monthly charges.
+
+Prediction: **✅ NOT CHURN (22.11%)**
+
+Insight: High tenure and long-term contracts act as strong "anchors," significantly lowering the churn probability.
+
+**3. The Vulnerable Senior**
+
+Profile: Senior citizen, One-year contract, uses Tech Support, manual payment.
+
+Prediction: **✅ NOT CHURN (29.40%)**
+
+Insight: Despite being a senior citizen (often a higher risk group), the presence of a contract and use of support services successfully pulls the risk down into the "safe" zone.
+
+**4. The Unhappy Power User**
+
+Profile: 2-year tenure, but still on a Month-to-month contract with high charges.
+
+Prediction: **⚠️ CHURN (63.61%)**
+
+Insight: This is a crucial "Red Flag" scenario. The model recognizes that even with a decent tenure, a customer is highly likely to leave if they are paying high prices without the stability of a fixed contract.
