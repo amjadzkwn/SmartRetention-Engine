@@ -2,6 +2,8 @@
 
 SmartRetention Engine is an end-to-end Machine Learning project designed to predict customer churn for a telecommunications company. By identifying high-risk customers, businesses can implement proactive retention strategies to reduce revenue loss.
 
+Dataset: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
 ## 🚀 Project Overview
 
 This project utilizes the Telco Customer Churn dataset to build a predictive model. The final deployment is a Streamlit web application that allows users to input customer data and receive real-time risk assessments.
@@ -29,6 +31,24 @@ The project is structured into modular Python scripts for maintainability:
 - Deployment: Streamlit
 - Model Storage: Joblib
 
+## 📈 Exploratory Data Analysis (EDA)
+
+**Churn Distribution**
+
+![churn_distribution](https://github.com/amjadzkwn/SmartRetention-Engine/blob/b176de7befa02fe2349bb409fbd0cb1da1d2dca6/confusion_matrix/cm_logistic_regression.png)
+
+**Tenure vs Churn**
+
+![tenure_vs_churn](https://github.com/amjadzkwn/SmartRetention-Engine/blob/b176de7befa02fe2349bb409fbd0cb1da1d2dca6/confusion_matrix/cm_logistic_regression.png)
+
+**Contract vs Churn**
+
+![contract_vs_churn](https://github.com/amjadzkwn/SmartRetention-Engine/blob/b176de7befa02fe2349bb409fbd0cb1da1d2dca6/confusion_matrix/cm_logistic_regression.png)
+
+**Correlation Heatmap**
+
+![correlation_heatmap](https://github.com/amjadzkwn/SmartRetention-Engine/blob/b176de7befa02fe2349bb409fbd0cb1da1d2dca6/confusion_matrix/cm_logistic_regression.png)
+
 ## 📈 Model Performance
 
 To ensure the model effectively captures customers likely to leave, the training focus was placed on Recall.
@@ -43,7 +63,7 @@ To ensure the model effectively captures customers likely to leave, the training
 
 **XGBoost**
 
-![xgboost_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/730df22f6a1b0395404e44254c8cff1c87315867/LogisticRegression_cm.png)
+![xgboost_cm](https://github.com/amjadzkwn/SmartRetention-Engine/blob/2fd4142c243e87755662f7b83fee7fa1b49adf11/confusion_matrix/cm_xgboost_optimized.png)
 
 **Performance Comparison**
 |Model|Accuracy|Recall (Churn)|F1-Score|
