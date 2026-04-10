@@ -39,7 +39,7 @@ To ensure the model effectively captures customers likely to leave, the training
 
 **Random Forest**
 
-![random_forest_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/730df22f6a1b0395404e44254c8cff1c87315867/LogisticRegression_cm.png)
+![random_forest_cm](https://github.com/amjadzkwn/SmartRetention-Engine/blob/69ebc45d7ef824661271a2d8b5a67b28499f8c8f/confusion_matrix/cm_random_forest.png)
 
 **XGBoost**
 
