@@ -33,6 +33,18 @@ The project is structured into modular Python scripts for maintainability:
 
 To ensure the model effectively captures customers likely to leave, the training focus was placed on Recall.
 
+**Logistic Regression**
+
+![logistic_regression_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/730df22f6a1b0395404e44254c8cff1c87315867/LogisticRegression_cm.png)
+
+**Random Forest**
+
+![random_forest_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/730df22f6a1b0395404e44254c8cff1c87315867/LogisticRegression_cm.png)
+
+**XGBoost**
+
+![xgboost_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/730df22f6a1b0395404e44254c8cff1c87315867/LogisticRegression_cm.png)
+
 **Performance Comparison**
 |Model|Accuracy|Recall (Churn)|F1-Score|
 |-----|--------|--------------|--------|
