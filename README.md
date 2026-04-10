@@ -35,7 +35,7 @@ The project is structured into modular Python scripts for maintainability:
 
 **Churn Distribution**
 
-![churn_distribution](https://github.com/amjadzkwn/SmartRetention-Engine/blob/b176de7befa02fe2349bb409fbd0cb1da1d2dca6/confusion_matrix/cm_logistic_regression.png)
+![churn_distribution](https://github.com/amjadzkwn/SmartRetention-Engine/blob/4a73a142223a771b7ae217a68394cce474fad62c/eda/1_agihan_churn.png)
 
 **Tenure vs Churn**
 
