@@ -35,7 +35,7 @@ To ensure the model effectively captures customers likely to leave, the training
 
 **Logistic Regression**
 
-![logistic_regression_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/730df22f6a1b0395404e44254c8cff1c87315867/LogisticRegression_cm.png)
+![logistic_regression_cm](https://github.com/amjadzkwn/SmartRetention-Engine/blob/b176de7befa02fe2349bb409fbd0cb1da1d2dca6/confusion_matrix/cm_logistic_regression.png)
 
 **Random Forest**
 
