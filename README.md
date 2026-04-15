@@ -47,7 +47,7 @@ The project is structured into modular Python scripts for maintainability:
 
 **Correlation Heatmap**
 
-![correlation_heatmap](https://github.com/amjadzkwn/SmartRetention-Engine/blob/b176de7befa02fe2349bb409fbd0cb1da1d2dca6/confusion_matrix/cm_logistic_regression.png)
+![correlation_heatmap](https://github.com/amjadzkwn/SmartRetention-Engine/blob/e77e5942c9bb573e09a8e1890764ad9c7fb4cce1/eda/4_heatmap_korelasi.png)
 
 ## 📈 Model Performance
 
