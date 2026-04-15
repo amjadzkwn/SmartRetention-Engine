@@ -155,7 +155,7 @@ Profile: 2-year tenure, but still on a Month-to-month contract with high charges
 - **Online Security:** No
 
 **Output:**
-![Unhappy_Power_User](https://github.com/amjadzkwn/SmartRetention-Engine/blob/4a73a142223a771b7ae217a68394cce474fad62c/eda/1_agihan_churn.png)
+![Unhappy_Power_User](https://github.com/amjadzkwn/SmartRetention-Engine/blob/db7b1819279fe81577076fa161d006f94812e0a3/output_streamlit/unhappy_power_user.png)
 
 Prediction: **⚠️ CHURN (63.61%)**
 
