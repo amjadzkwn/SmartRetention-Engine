@@ -114,7 +114,7 @@ Profile: Long-term customer (70 months), Two-year contract, low monthly charges.
 - **Dependents / Partner:** Yes
 
 **Output:**
-![Loyal_Veteran](https://github.com/amjadzkwn/SmartRetention-Engine/blob/4a73a142223a771b7ae217a68394cce474fad62c/eda/1_agihan_churn.png)
+![Loyal_Veteran](https://github.com/amjadzkwn/SmartRetention-Engine/blob/e540524d18d2cd35361bb5b3810e67215802b806/output_streamlit/loyal_veteran.png)
 
 Prediction: **✅ NOT CHURN (22.11%)**
 
