@@ -39,7 +39,7 @@ The project is structured into modular Python scripts for maintainability:
 
 **Tenure vs Churn**
 
-![tenure_vs_churn](https://github.com/amjadzkwn/SmartRetention-Engine/blob/b176de7befa02fe2349bb409fbd0cb1da1d2dca6/confusion_matrix/cm_logistic_regression.png)
+![tenure_vs_churn](https://github.com/amjadzkwn/SmartRetention-Engine/blob/571dad36e20d33647d0d31e40cadcdcfb024f5fb/eda/2_tenure_vs_churn.png)
 
 **Contract vs Churn**
 
