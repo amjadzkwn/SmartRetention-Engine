@@ -43,7 +43,7 @@ The project is structured into modular Python scripts for maintainability:
 
 **Contract vs Churn**
 
-![contract_vs_churn](https://github.com/amjadzkwn/SmartRetention-Engine/blob/b176de7befa02fe2349bb409fbd0cb1da1d2dca6/confusion_matrix/cm_logistic_regression.png)
+![contract_vs_churn](https://github.com/amjadzkwn/SmartRetention-Engine/blob/9143953ecb973866db358d3e6de3554512513469/eda/3_kontrak_vs_churn.png)
 
 **Correlation Heatmap**
 
