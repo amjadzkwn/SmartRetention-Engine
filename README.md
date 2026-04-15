@@ -85,13 +85,13 @@ To ensure the model makes logical business decisions, it was tested against four
 Profile: New customer, Fiber optic, expensive monthly charges, no contract.
 
 **Input:**
-**Tenure:** 2 bulan
-**Contract:** Month-to-month
-**Internet Service:** Fiber optic
-**Monthly Charges:** $105.00
-**Online Security / Tech Support:** No
-**Payment Method:** Electronic check
-**Paperless Billing:** Yes
+- **Tenure:** 2 bulan
+- **Contract:** Month-to-month
+- **Internet Service:** Fiber optic
+- **Monthly Charges:** $105.00
+- **Online Security / Tech Support:** No
+- **Payment Method:** Electronic check
+- **Paperless Billing:** Yes
 
 Prediction: **⚠️ CHURN (69.16%)**
 
@@ -102,13 +102,13 @@ Insight: The model correctly identifies that high-cost services combined with a 
 Profile: Long-term customer (70 months), Two-year contract, low monthly charges.
 
 **Input:**
-**Tenure:** 70 bulan
-**Contract:** Two year
-**Internet Service:** DSL
-**Monthly Charges:** $40.00
-**Online Security / Tech Support:** Yes
-**Payment Method:** Credit card (automatic)
-**Dependents / Partner:** Yes
+- **Tenure:** 70 bulan
+- **Contract:** Two year
+- **Internet Service:** DSL
+- **Monthly Charges:** $40.00
+- **Online Security / Tech Support:** Yes
+- **Payment Method:** Credit card (automatic)
+- **Dependents / Partner:** Yes
 
 Prediction: **✅ NOT CHURN (22.11%)**
 
@@ -119,14 +119,14 @@ Insight: High tenure and long-term contracts act as strong "anchors," significan
 Profile: Senior citizen, One-year contract, uses Tech Support, manual payment.
 
 **Input:**
-**Senior Citizen:** Yes
-**Tenure:** 18 bulan
-**Contract:** One year
-**Internet Service:** Fiber optic
-**Tech Support:** Yes
-**Online Security:** No
-**Payment Method:** Mailed check
-**Monthly Charges:** $85.00
+- **Senior Citizen:** Yes
+- **Tenure:** 18 bulan
+- **Contract:** One year
+- **Internet Service:** Fiber optic
+- **Tech Support:** Yes
+- **Online Security:** No
+- **Payment Method:** Mailed check
+- **Monthly Charges:** $85.00
 
 Prediction: **✅ NOT CHURN (29.40%)**
 
@@ -137,13 +137,13 @@ Insight: Despite being a senior citizen (often a higher risk group), the presenc
 Profile: 2-year tenure, but still on a Month-to-month contract with high charges.
 
 **Input:**
-**Tenure:** 24 bulan
-**Contract:** Month-to-month
-**Internet Service:** Fiber optic
-**Streaming TV / Movies:** Yes
-**Multiple Lines:** Yes
-**Monthly Charges:** $110.00
-**Online Security:** No
+- **Tenure:** 24 bulan
+- **Contract:** Month-to-month
+- **Internet Service:** Fiber optic
+- **Streaming TV / Movies:** Yes
+- **Multiple Lines:** Yes
+- **Monthly Charges:** $110.00
+- **Online Security:** No
 
 Prediction: **⚠️ CHURN (63.61%)**
 
