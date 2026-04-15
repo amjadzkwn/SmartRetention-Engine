@@ -93,6 +93,9 @@ Profile: New customer, Fiber optic, expensive monthly charges, no contract.
 - **Payment Method:** Electronic check
 - **Paperless Billing:** Yes
 
+**Output:**
+![High-Risk_Newcomer](https://github.com/amjadzkwn/SmartRetention-Engine/blob/4a73a142223a771b7ae217a68394cce474fad62c/eda/1_agihan_churn.png)
+
 Prediction: **⚠️ CHURN (69.16%)**
 
 Insight: The model correctly identifies that high-cost services combined with a lack of contractual commitment in the first few months represent a major risk.
@@ -109,6 +112,9 @@ Profile: Long-term customer (70 months), Two-year contract, low monthly charges.
 - **Online Security / Tech Support:** Yes
 - **Payment Method:** Credit card (automatic)
 - **Dependents / Partner:** Yes
+
+**Output:**
+![Loyal_Veteran](https://github.com/amjadzkwn/SmartRetention-Engine/blob/4a73a142223a771b7ae217a68394cce474fad62c/eda/1_agihan_churn.png)
 
 Prediction: **✅ NOT CHURN (22.11%)**
 
@@ -128,6 +134,9 @@ Profile: Senior citizen, One-year contract, uses Tech Support, manual payment.
 - **Payment Method:** Mailed check
 - **Monthly Charges:** $85.00
 
+**Output:**
+![Vulnerable_Senior](https://github.com/amjadzkwn/SmartRetention-Engine/blob/4a73a142223a771b7ae217a68394cce474fad62c/eda/1_agihan_churn.png)
+
 Prediction: **✅ NOT CHURN (29.40%)**
 
 Insight: Despite being a senior citizen (often a higher risk group), the presence of a contract and use of support services successfully pulls the risk down into the "safe" zone.
@@ -144,6 +153,9 @@ Profile: 2-year tenure, but still on a Month-to-month contract with high charges
 - **Multiple Lines:** Yes
 - **Monthly Charges:** $110.00
 - **Online Security:** No
+
+**Output:**
+![Unhappy_Power_User](https://github.com/amjadzkwn/SmartRetention-Engine/blob/4a73a142223a771b7ae217a68394cce474fad62c/eda/1_agihan_churn.png)
 
 Prediction: **⚠️ CHURN (63.61%)**
 
