@@ -135,7 +135,7 @@ Profile: Senior citizen, One-year contract, uses Tech Support, manual payment.
 - **Monthly Charges:** $85.00
 
 **Output:**
-![Vulnerable_Senior](https://github.com/amjadzkwn/SmartRetention-Engine/blob/4a73a142223a771b7ae217a68394cce474fad62c/eda/1_agihan_churn.png)
+![Vulnerable_Senior](https://github.com/amjadzkwn/SmartRetention-Engine/blob/27492bbd80fb66064703744a25ddebed86afd47c/output_streamlit/vulnerable_senior.png)
 
 Prediction: **✅ NOT CHURN (29.40%)**
 
