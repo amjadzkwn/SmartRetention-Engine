@@ -94,7 +94,7 @@ Profile: New customer, Fiber optic, expensive monthly charges, no contract.
 - **Paperless Billing:** Yes
 
 **Output:**
-![High-Risk_Newcomer](https://github.com/amjadzkwn/SmartRetention-Engine/blob/4a73a142223a771b7ae217a68394cce474fad62c/eda/1_agihan_churn.png)
+![High-Risk_Newcomer](https://github.com/amjadzkwn/SmartRetention-Engine/blob/c45d281b086490699ce125c0ba0363abc003b560/output_streamlit/high-risk_newcomer.png)
 
 Prediction: **⚠️ CHURN (69.16%)**
 
